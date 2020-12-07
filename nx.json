@@ -29,6 +29,23 @@
     "website-e2e": {
       "tags": [],
       "implicitDependencies": ["website"]
+    },
+    "mobile": {
+      "tags": []
+    },
+    "mobile-e2e": {
+      "tags": [],
+      "implicitDependencies": ["mobile"]
+    },
+    "ui": {
+      "tags": []
+    },
+    "chat": {
+      "tags": []
+    },
+    "chat-e2e": {
+      "tags": [],
+      "implicitDependencies": ["chat"]
     }
   }
 }

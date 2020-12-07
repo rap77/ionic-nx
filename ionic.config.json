@@ -1,0 +1,16 @@
+{
+  "projects": {
+    "mobile": {
+      "name": "mobile",
+      "integrations": {},
+      "type": "angular",
+      "root": "apps/mobile"
+    },
+    "ui": {
+      "name": "ui",
+      "integrations": {},
+      "type": "angular",
+      "root": "libs/ui"
+    }
+  }
+}

@@ -1,0 +1,18 @@
+<rp-ui-header titulo="Avatar"></rp-ui-header>
+
+<ion-content>
+  <ion-chip color="primary" *ngFor="let i of [1,1,1,1,1,1,1,1,1]">
+    <ion-avatar>
+      <img src="/assets/img/stan-lee.jpg" />
+    </ion-avatar>
+    <ion-label>Stan Lee</ion-label>
+  </ion-chip>
+  <ion-list>
+    <ion-item *ngFor="let i of [1,1,1,1,1,1,1,1,1]">
+      <ion-avatar slot="start">
+        <img src="/assets/img/stan-lee.jpg" />
+      </ion-avatar>
+      <ion-label>Stan Lee</ion-label>
+    </ion-item>
+  </ion-list>
+</ion-content>
