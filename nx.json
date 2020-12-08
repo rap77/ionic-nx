@@ -46,6 +46,9 @@
     "chat-e2e": {
       "tags": [],
       "implicitDependencies": ["chat"]
+    },
+    "api": {
+      "tags": []
     }
   }
 }
