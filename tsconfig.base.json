@@ -17,7 +17,8 @@
     "baseUrl": ".",
     "paths": {
       "@ionic-nx/ui": ["libs/ui/src/index.ts"],
-      "@ionic-nx/ui/*": ["libs/ui/src/*"]
+      "@ionic-nx/ui/*": ["libs/ui/src/*"],
+      "@ionic-nx/core": ["libs/core/src/index.ts"]
     }
   },
   "exclude": ["node_modules", "tmp"]
