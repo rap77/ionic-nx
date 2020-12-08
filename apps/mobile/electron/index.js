@@ -1,9 +1,6 @@
 const { app, BrowserWindow, Menu } = require('electron')
 const isDevMode = require('electron-is-dev')
-const {
-  CapacitorSplashScreen,
-  configCapacitor,
-} = require('@capacitor/electron')
+const { CapacitorSplashScreen, configCapacitor } = require('@capacitor/electron')
 
 const path = require('path')
 
@@ -39,14 +36,7 @@ async function createWindow() {
     show: false,
     webPreferences: {
       nodeIntegration: true,
-      preload: path.join(
-        __dirname,
-        'node_modules',
-        '@capacitor',
-        'electron',
-        'dist',
-        'electron-bridge.js',
-      ),
+      preload: path.join(__dirname, 'node_modules', '@capacitor', 'electron', 'dist', 'electron-bridge.js'),
     },
   })
 

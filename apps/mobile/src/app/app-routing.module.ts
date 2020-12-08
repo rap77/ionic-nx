@@ -12,8 +12,7 @@ const routes: Routes = [
   },
   {
     path: 'action-sheet',
-    loadChildren: () =>
-      import('@ionic-nx/ui').then((m) => m.ActionSheetPageModule),
+    loadChildren: () => import('@ionic-nx/ui').then((m) => m.ActionSheetPageModule),
   },
   {
     path: 'avatar',

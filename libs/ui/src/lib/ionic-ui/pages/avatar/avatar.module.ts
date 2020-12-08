@@ -10,13 +10,7 @@ import { AvatarPage } from './avatar.page'
 import { ComponentsModule } from '../../components/components.module'
 
 @NgModule({
-  imports: [
-    CommonModule,
-    FormsModule,
-    IonicModule,
-    AvatarPageRoutingModule,
-    ComponentsModule,
-  ],
+  imports: [CommonModule, FormsModule, IonicModule, AvatarPageRoutingModule, ComponentsModule],
   declarations: [AvatarPage],
 })
 export class AvatarPageModule {}

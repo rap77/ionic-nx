@@ -6,14 +6,7 @@ import { ActionSheetPageModule } from './pages/action-sheet/action-sheet.module'
 import { ComponentsModule } from './components/components.module'
 import { IonicModule } from '@ionic/angular'
 
-const MODULES = [
-  CommonModule,
-  IonicModule,
-  InicioPageModule,
-  AlertPageModule,
-  ActionSheetPageModule,
-  ComponentsModule,
-]
+const MODULES = [CommonModule, IonicModule, InicioPageModule, AlertPageModule, ActionSheetPageModule, ComponentsModule]
 
 @NgModule({
   declarations: [],

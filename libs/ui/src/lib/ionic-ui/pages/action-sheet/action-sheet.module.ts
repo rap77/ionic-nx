@@ -10,13 +10,7 @@ import { ActionSheetPage } from './action-sheet.page'
 import { ComponentsModule } from '../../components/components.module'
 
 @NgModule({
-  imports: [
-    CommonModule,
-    FormsModule,
-    IonicModule,
-    ActionSheetPageRoutingModule,
-    ComponentsModule,
-  ],
+  imports: [CommonModule, FormsModule, IonicModule, ActionSheetPageRoutingModule, ComponentsModule],
   declarations: [ActionSheetPage],
 })
 export class ActionSheetPageModule {}

@@ -10,13 +10,7 @@ import { AlertPage } from './alert.page'
 import { ComponentsModule } from '../../components/components.module'
 
 @NgModule({
-  imports: [
-    CommonModule,
-    FormsModule,
-    IonicModule,
-    AlertPageRoutingModule,
-    ComponentsModule,
-  ],
+  imports: [CommonModule, FormsModule, IonicModule, AlertPageRoutingModule, ComponentsModule],
   declarations: [AlertPage],
 })
 export class AlertPageModule {}

@@ -184,8 +184,7 @@ export class AlertPage implements OnInit {
         {
           name: 'radio6',
           type: 'radio',
-          label:
-            'Radio 6 Radio 6 Radio 6 Radio 6 Radio 6 Radio 6 Radio 6 Radio 6 Radio 6 Radio 6 ',
+          label: 'Radio 6 Radio 6 Radio 6 Radio 6 Radio 6 Radio 6 Radio 6 Radio 6 Radio 6 Radio 6 ',
           value: 'value6',
         },
       ],
